@@ -5,7 +5,10 @@ window.config = {
   // whiteLabeling: {},
   extensions: [],
   modes: [],
-  customizationService: {},
+  customizationService: {
+    dicomUploadComponent:
+      '@ohif/extension-cornerstone.customizationModule.cornerstoneDicomUploadComponent',
+  },
   showStudyList: true,
   // some windows systems have issues with more than 3 web workers
   maxNumberOfWebWorkers: 3,
